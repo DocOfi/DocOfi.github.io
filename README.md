@@ -1,4 +1,4 @@
 DocOfi.github.io
 =====================
-This is site contains visualization of data from the Philippines. 
+This site contains visualization of data from the Philippines. 
 
