@@ -1,0 +1,47 @@
+---
+layout: default
+title: Portfolio
+---
+<head>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#slider1').bxSlider({
+                auto: true,
+                pager: true,
+                slideWidth: 800,
+                captions: true
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <section>
+            <h1>Project Portfolio</h1>
+            <h3>Scroll down to see list of projects</a></h3>
+
+            <ul id="slider1">
+              <li><img src="/img/folder-name/gggg-1.png" title="Hurricanes 1999-2010, Philippines" /></li>
+              <li><img src="/img/folder-name/index.png" title="Bohol Earthquake, 2013" /></li>
+			  <li><img src="/img/folder-name/image-name.png" title="Typhoon Haiyan (Yolanda)" /></li>
+              <li><img src="/img/folder-name/maptypehybrid.png" title="Morning Run" /></li>
+            </ul>
+
+            <p>The images you see on the carrousel are plots from the different projects I have created using data about the 
+				Philippines. A list of these projects can be found below and accessed individually by clicking on the links provided.
+				If you want to see the repository containing all the projects they can be found in my 
+				<a href="https://github.com/DocOfi/Building_Data_Visualization_Tools">Building Data Visualization Tools Repository</a>
+			</p>
+			
+			<ul>
+				<li><a href="https://github.com/DocOfi/Building_Data_Visualization_Tools/Bohol_2013/index.md">Bohol_2013</a></li>
+				<li><a href="https://github.com/DocOfi/Building_Data_Visualization_Tools/Plotting_Earthquake_Data_in_R/index.md">Plotting_Earthquake_Data_in_R</a></li>
+				<li><a href="https://github.com/DocOfi/Building_Data_Visualization_Tools/Plotting_tcx_files/index.md">Plotting_tcx_files</a></li>
+				<li><a href="https://github.com/DocOfi/Building_Data_Visualization_Tools/Storms_in_Mindanao/index.md">Storms_in_Mindanao</a></li>
+			</ul>
+        </section>
+    </div>
+</body>
